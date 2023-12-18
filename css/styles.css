@@ -1,0 +1,78 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background-image: linear-gradient(to bottom right, rgb(24, 18, 18),white, rgb(132, 13, 13));
+    color: black
+}
+
+h1, h2, h3 {
+    font-family: "Lobster";
+}
+
+h2 {
+    color: black;
+}
+
+header {
+    padding: 30px;
+    color: black;
+}
+
+header h2 {
+    color: #0d0b15;
+}
+footer {
+    
+    padding: 20px 0;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, rgb(142, 8, 8), rgb(183, 57, 57), rgb(60, 41, 41));
+    border: solid 2px;
+    color: black;
+}
+
+
+.par {
+    clear: right;
+    border: 2px solid;
+    text-align: left;
+}
+
+.carousel-caption {
+    background-color: gray;
+}
+
+.carousel {
+    border: solid 10px rgb(16, 1, 16);
+    border-radius: 3px;
+}
+
+.red {
+    border-radius: 20px;
+    background-color: rgb(243, 106, 106);
+    
+}
+
+.blue {
+    border-radius: 20px;
+    background-color: rgb(144, 144, 228);
+}
+
+.gray {
+    border-radius: 20px;
+
+}
+
+.pic {
+    height: 600px
+}
+
+#reserveModal {
+    background-color: rgb(142, 8, 8);
+}

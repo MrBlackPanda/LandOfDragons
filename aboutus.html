@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+
+    <!-- Additional CSS must be placed after Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Nucamp: A Better Way To Camp</title>
+</head>
+
+<body>
+
+    <!-- header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-3 col-md-2 align-self-center">
+                    <a href="index.html"><img src="img/logo.png" class="img-fluid" /></a>
+                </div>
+                <div class="col">
+                    <h1>Dragons</h1>
+                    <h2>All you need to know</h2>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png" height="30" width="30" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nucampNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nucampNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa-solid fa-house fa-lg"></i>
+                            Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#"><i class="fa-solid fa-info fa-lg"></i>
+                            About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-list fa-lg"></i> Sites</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="contactus.html"><i
+                                class="fa-solid fa-address-card fa-lg"></i> Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="row">
+            <div class="col">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a class="text-danger" href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active">About</li>
+                </ol>
+                <h2>About Us</h2>
+                <hr />
+            </div>
+        </div>
+
+        <section class="row row-content">
+            <div class="col-sm-6">
+                <h3>Our Mission</h3>
+                <p>Dragons cannot be truly "tamed", but they can be bonded with and trained. The Valyrians rode dragons for millennia. 
+                    Aegon I Targaryen and his sister-wives, who descended from Old Valyria, used the last three Mega dragons in the world to
+                    conquer and unify the Seven Kingdoms. We want to instill the confidence and competence in you to be able to make that
+                    bond possible.</p>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                    <h3 class="card-header bg-danger text-white">Facts At a Glance</h3>
+                    <div class="card-body">
+                        <dl class="row">
+                            <dt class="col-6">Founded</dt>
+                            <dd class="col-6">February 3, 1794 bv</dd>
+                            <dt class="col-6">Bonders trained in 1932 bv</dt>
+                            <dd class="col-6">563</dd>
+                            <dt class="col-6">No. of eager applicants in 1932 bv</dt>
+                            <dd class="col-6">4388</dd>
+                            <dt class="col-6">No. of Trainers</dt>
+                            <dd class="col-6">42</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-light mt-3">
+                    <figure class="card-body">
+                        <blockquote class="blockquote">
+                            <p>I will not follow where the path may lead, but I will go where there is no path, and I
+                                will leave a trail.</p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer">
+                            Muriel Strode <cite title="Source Title">"Wind-Wafted Wild Flowers" - The Open Court,
+                                1903</cite>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section class="row row-content">
+            <div class="col-12">
+                <h3>Community Partners</h3>
+                
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h4 class="accordion-header">
+                            <button class="bg-secondary text-light accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#bootstrap">
+                                Riding Outfitters
+                            </button>
+                        </h4>
+                        <div id="bootstrap" class="accordion-collapse collapse show" data-bs-target="#accordionExample">
+                            <div class="accordion-body d-none d-sm-block">
+                                <p class="d-none d-sm-block">We outfit ourselves with the Arken Clan, they supply most of our equipment, which is all high quality</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h4 class="accordion-header">
+                            <button class="bg-secondary text-light accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#git">
+                                Long Term Expeditions
+                            </button>
+                        </h4>
+                        <div id="git" class="accordion-collapse collapse show" data-bs-target="#accordionExample">
+                            <div class="accordion-body d-none d-sm-block">
+                                <p class="d-none d-sm-block">Join our Expeditions to explore new horizons with a group of other adventurers!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h4 class="accordion-header">
+                            <button class="bg-secondary text-light accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#mongo">
+                                Mongo Fly Shop
+                            </button>
+                        </h4>
+                        <div id="mongo" class="accordion-collapse collapse show" data-bs-target="#accordionExample">
+                            <div class="accordion-body d-none d-sm-block">
+                                <p class="d-none d-sm-block">Need some new items to befitting of your dragon-friend status? Stop by Mongo Fly Shop.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h4 class="accordion-header">
+                            <button class="bg-secondary text-light accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#node">
+                                Dragon Apparel
+                            </button>
+                        </h4>
+                        <div id="node" class="accordion-collapse collapse show" data-bs-target="#accordionExample">
+                            <div class="accordion-body d-none d-sm-block">
+                                <p class="d-none d-sm-block">From polar armor to saddles, compatible blades to gloves, a visit to Dragon Apparel will be sure to get you covered.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- table -->
+        <section class="row row-content">
+            <div class="col-sm-9">
+                <h2>Facts &amp; Figures</h2>
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr class="bg-danger text-light">
+                                <th></th>
+                                <th>1910</th>
+                                <th>1920</th>
+                                <th>1932</th>
+                            </tr>
+                        </thead>
+                        <tbody class="table-secondary">
+                            <tr>
+                                <th>Staff Wilderness Trainers</th>
+                                <td>10</td>
+                                <td>20</td>
+                                <td>40</td>
+                            </tr>
+                            <tr>
+                                <th>New Riders</th>
+                                <td>256</td>
+                                <td>1,280</td>
+                                <td>5,360</td>
+                            </tr>
+                            <tr>
+                                <th>Square Miles Traveled</th>
+                                <td>101,325</td>
+                                <td>423,000</td>
+                                <td>~3,000,000,000</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-2 offset-1">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a class="text-danger" href="index.html">Home</a></li>
+                        <li><a class="text-danger" href="#">About</a></li>
+                        <li><a class="text-danger" href="#">Sites</a></li>
+                        <li><a class="text-danger" href="contactus.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-5 text-center">
+                    <h5>Social</h5>
+                    <a href="http://instagram.com/"><i class="fa-brands fa-instagram fa-xl text-danger"></i></a>
+                    <a href="http://facebook.com/"><i class="fa-brands fa-facebook fa-xl text-danger"></i></a>
+                    <a href="http://twitter.com/"><i class="fa-brands fa-twitter fa-xl text-danger"></i></a>
+                    <a href="http://youtube.com/"><i class="fa-brands fa-youtube fa-xl text-danger"></i></a>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <i class="fa-solid fa-phone fa-lg text-danger"></i> 1-222-555-1234<br />
+                    <i class="fa-solid fa-envelope fa-lg text-danger"></i> DragonsRule@kingofkings.com
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JavaScript plugins -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
